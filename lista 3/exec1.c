@@ -3,16 +3,32 @@
 int main() {
     int biometria, senha, modoSeguro;
 
-    printf("Digite a biometria (1/0): ");
+    // Entrada de dados
+    printf("Biometria (1-correta, 0-incorreta): ");
     scanf("%d", &biometria);
-
-    printf("Digite a senha (1/0): ");
+    
+    printf("Senha (1-correta, 0-incorreta): ");
     scanf("%d", &senha);
-
-    printf("Digite o modo seguro (1/0): ");
+    
+    printf("Modo Seguro (1-ativo, 0-inativo): ");
     scanf("%d", &modoSeguro);
 
-    // implemente a lógica aqui
+    // Lógica de Decisão
+    if (modoSeguro == 1) {
+        // No modo seguro, ignoramos a biometria
+        if (senha == 1) {
+            printf("DESBLOQUEADO\n");
+        } else {
+            printf("BLOQUEADO\n");
+        }
+    } else {
+        // Fora do modo seguro, qualquer uma das duas serve (Porta lógica OR)
+        if (biometria == 1 || senha == 1) {
+            printf("DESBLOQUEADO\n");
+        } else {
+            printf("BLOQUEADO\n");
+        }
+    }
 
     return 0;
 }
