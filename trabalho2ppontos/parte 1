@@ -1,0 +1,24 @@
+A) O que é pensamento computacional? 
+Pensamento computacional é uma forma de resolver problemas de maneira lógica e 
+organizada, utilizando conceitos da computação. Ele ajuda a dividir problemas grandes em partes menores 
+para facilitar a solução.
+
+B) Explique os conceitos
+
+Decomposição:
+É dividir um problema grande em partes menores e mais simples para facilitar a resolução.
+
+Abstração:
+É focar apenas nas informações importantes do problema, ignorando detalhes desnecessários.
+
+Reconhecimento de padrões:
+É identificar semelhanças entre problemas para criar soluções mais rápidas e eficientes.
+
+Algoritmo:
+É uma sequência de passos organizados para resolver um problema ou executar uma tarefa.
+
+
+C) Explique a diferença entre AND (&&) e OR (||)
+AND (&&): A condição só será verdadeira se todas as condições forem verdadeiras.
+
+OR (||): A condição será verdadeira se pelo menos uma das condições for verdadeira.
